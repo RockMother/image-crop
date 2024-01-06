@@ -1,0 +1,20 @@
+{
+  "name": "imagecrop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@saschazar/wasm-webp": "^3.0.1",
+    "axios": "^1.6.4",
+    "canvas": "^2.11.2",
+    "jimp": "^0.22.10",
+    "jsdom": "^23.0.1",
+    "sharp": "^0.33.1"
+  }
+}
